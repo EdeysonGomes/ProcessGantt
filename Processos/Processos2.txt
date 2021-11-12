@@ -1,0 +1,14 @@
+[Processos]
+Quantidade=3
+[Processo1]
+PID=0
+Inicio=0
+Tempo=17
+[Processo2]
+PID=1
+Inicio=5
+Tempo=10
+[Processo3]
+PID=2
+Inicio=8
+Tempo=6

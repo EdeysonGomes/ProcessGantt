@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C315E4C-A7DA-4CA5-A305-017BEFB6E0DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PrjProcessos.My.MyApplication</StartupObject>
+    <RootNamespace>PrjProcessos</RootNamespace>
+    <AssemblyName>Processos</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Template.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Processos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Processos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Algoritmos\Algoritmo.vb" />
+    <Compile Include="Classes\Algoritmos\Atributos\Atributo.vb" />
+    <Compile Include="Classes\Algoritmos\Atributos\Atributos.vb" />
+    <Compile Include="Classes\Algoritmos\PrioridadeCooperativo.vb" />
+    <Compile Include="Classes\Algoritmos\PrioridadePreemptivo.vb" />
+    <Compile Include="Classes\Analises\Analise.vb" />
+    <Compile Include="Classes\Analises\Analises.vb" />
+    <Compile Include="Classes\Estratégias de Comparação\EstratégiaComparaçãoPrioridadeInício.vb" />
+    <Compile Include="Classes\Estratégias de Comparação\EstratégiaComparaçãoInícioPrioridade.vb" />
+    <Compile Include="Classes\IO\ClsIni.vb" />
+    <Compile Include="Classes\Estratégias de Comparação\EstratégiaComparaçãoInicio.vb" />
+    <Compile Include="Classes\Estratégias de Comparação\EstratégiaComparaçãoPrioridade.vb" />
+    <Compile Include="Classes\Estratégias de Comparação\EstratégiaComparaçãoTempo.vb" />
+    <Compile Include="Classes\Estratégias de Comparação\EstratégiaComparaçãoTempoRestante.vb" />
+    <Compile Include="Classes\Algoritmos\Fifo.vb" />
+    <Compile Include="Classes\Estruturas\FilaDeProcesos.vb" />
+    <Compile Include="Classes\IO\InterpretadorIni.vb" />
+    <Compile Include="Classes\Estruturas\Processo.vb" />
+    <Compile Include="Classes\Estruturas\ProcessoEmMemoria.vb" />
+    <Compile Include="Classes\Estruturas\Processos.vb" />
+    <Compile Include="Classes\Algoritmos\RoundRobin.vb" />
+    <Compile Include="Classes\Algoritmos\SJF.vb" />
+    <Compile Include="Classes\Algoritmos\SJFP.vb" />
+    <Compile Include="Classes\Temporizador.vb" />
+    <Compile Include="Forms\FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmPrincipal.Designer.vb">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSobre.Designer.vb">
+      <DependentUpon>FrmSobre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSobre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IAlgoritmo.vb" />
+    <Compile Include="Interfaces\Interface Interpretador.vb" />
+    <Compile Include="UserControsl\Gantt.Designer.vb">
+      <DependentUpon>Gantt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControsl\Gantt.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FrmPrincipal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmSobre.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSobre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControsl\Gantt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Gantt.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Acao.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abrir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Processos1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Processos2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Template.ico" />
+    <None Include="Escalonador.cd" />
+    <None Include="Resources\Logo.png" />
+    <None Include="Resources\Help.png" />
+    <None Include="Resources\Executar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\Fábricas\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
