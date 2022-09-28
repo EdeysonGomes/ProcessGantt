@@ -1,0 +1,32 @@
+[Processos]
+Quantidade=5
+
+[Processo1]
+PID = 1
+Inicio = 0
+Tempo = 5
+Prioridade = 2
+
+[Processo2]
+PID = 2
+Inicio = 0
+Tempo = 6
+Prioridade = 3
+
+[Processo3]
+PID = 3
+Inicio = 1
+Tempo = 2
+Prioridade = 4
+
+[Processo4]
+PID = 4
+Inicio = 7
+Tempo = 6
+Prioridade = 7
+
+[Processo5]
+PID = 5
+Inicio = 11
+Tempo = 4
+Prioridade = 9

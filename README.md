@@ -1,5 +1,3 @@
-
-
 # ProcessGantt 
 
 [![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)](https://github.com/TheAlgorithms/C/blob/master/CONTRIBUTING.md)
