@@ -21,7 +21,27 @@ Os algoritmos de escalonamento suportados são:
 4. Round Robin
 5. Prioridade Cooperativo;
 6. Prioridade Preemptivo
-                
+
+Para a ilustrar o funcionamento de cada algoritmo via diagrama de Gantt, considera-se que:
+1. O sistema é **monoprocessado**
+2. Há um conjunto hipotético de processos (p<sub>1</sub> ... p<sub>n</sub>) na fila de processos prontos do sistema operacional, descritos na Tabela 1 a seguir.
+
+|Processo   | p1 | p2 | p3 | p4 | p5 |
+|-----------|----|----|----|----|----|
+|Submissão  | 0  | 0  | 1  | 3  | 5  |
+|Duração    | 5  | 2  | 4  | 1  | 2  |
+|Prioridade | 2  | 3  | 1  | 4  | 5  |
+
+Tabela 1: Processos na fila de prontoas.
+
+Cada processo tem uma registro de tempo de submissão (instante em que o processo foi criado no sistema), uma duração
+(tempo de processamento que necessita para realizar sua execução) e uma prioridade (usada pelos algoritmos com prioridades).
+
+Para simplificar a análise dos algoritmos, assumem-se algumas premissas:
+1. Todos os processos são intensivamente consumidores de CPU (*CPU Bound*), ou seja, não param para realizar operações de entrada/saída (E/S). A premissa dos processos não fazerem *E/S* é requerida para focar exclusivamente no tempo de CPU.
+2. Os tempos das possíveis trocas de contexto serão desprezados.
+
+
 # Histórico
 
 O **Diagramador de Escalonamento de Processos** é fruto de um desafio feito a meus alunos do curso de Ciência da Computação da Universidade Salvador (UNIFACS) em 2007. 
