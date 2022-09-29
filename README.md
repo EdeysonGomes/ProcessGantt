@@ -68,8 +68,10 @@ Os elementos desta seção são:
 
 # Exemplo de uso
 
-Os dados dos processos descritos na Tabela 1 estão no arquivo https://github.com/EdeysonGomes/ProcessGantt/Examples/Exemplo%2001%20(Livro%20Mazieiro).txt
+O arquivo INI correspondente aos processos descritos na Tabela 1 está em: https://github.com/EdeysonGomes/ProcessGantt/Examples/Exemplo01_(Livro_Mazieiro).txt
+O primeiro passo para o uso do Escalonador é "Selecionar o arquivo de entrada", conforme Figura 1.
 
+![Selecionando arquivo de entrada] ()
 
 
 # Histórico
