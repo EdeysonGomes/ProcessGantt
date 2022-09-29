@@ -68,7 +68,7 @@ Os elementos desta seção são:
 
 # Exemplo de uso
 
-Os dados dos processos descritos na Tabela 1 estão no arquivo 
+Os dados dos processos descritos na Tabela 1 estão no arquivo https://github.com/EdeysonGomes/ProcessGantt/Examples/Exemplo%2001%20(Livro%20Mazieiro).txt
 
 
 
