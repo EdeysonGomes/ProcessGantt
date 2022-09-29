@@ -2,7 +2,7 @@
 Public Class Fifo
     Implements Algoritmo
     Dim locAtributos As New Atributos
-    Dim locDescricao As String = "FIFO/FCFS"
+    Dim locDescricao As String = "FCFS/FIFO"
     Dim locTimerInterno As New Temporizador
     Dim locIntervalo As Integer
 

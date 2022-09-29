@@ -2,7 +2,7 @@
 Public Class SJFP
     Implements Algoritmo
     Dim locAtributos As New Atributos
-    Dim locDescricao As String = "SJF Preemptivo"
+    Dim locDescricao As String = "SRTF"
     Dim locTimerInterno As New Temporizador
     Dim locIntervalo As Integer
 

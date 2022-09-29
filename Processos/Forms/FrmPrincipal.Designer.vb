@@ -245,7 +245,7 @@ Partial Class FrmPrincipal
         Me.Controls.Add(Me.Panel1)
         Me.MinimumSize = New System.Drawing.Size(522, 457)
         Me.Name = "FrmPrincipal"
-        Me.Text = "Diagramador de Escalonamento de Escalonamento de Processos"
+        Me.Text = "Diagramador de Escalonamento de Processos"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)

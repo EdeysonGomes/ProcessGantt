@@ -1,17 +1,15 @@
 [Processos]
-Quantidade=3
+Quantidade=2
 
 [Processo1]
 PID = 1
 Inicio = 0
-Tempo = 24
+Tempo = 5
+Prioridade = 2
 
 [Processo2]
 PID = 2
 Inicio = 0
-Tempo = 3
+Tempo = 4
+Prioridade = 3
 
-[Processo3]
-PID = 3
-Inicio = 0
-Tempo = 3
