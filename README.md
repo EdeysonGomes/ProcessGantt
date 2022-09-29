@@ -88,3 +88,7 @@ O grupo que integrou este projeto, em sua primeira versão, foi:
 
 A evolução atual do Escalonador visa transformá-lo num **Recurso Educacional Aberto com Licença Creative Commons CC-BY-AS**.
 
+# Referências
+
+1. Tanenbaum, A. S. (2015). Modern operating systems. Fourth edition ed. Boston: Pearson.
+2. Maziero, C. A. (2019). Sistemas operacionais: conceitos e mecanismos. Curitiba : DINF - UFPR, 2019.
