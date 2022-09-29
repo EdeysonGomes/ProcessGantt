@@ -40,6 +40,7 @@ Cada processo tem uma registro de tempo de submissão (instante em que o process
 Para simplificar a análise dos algoritmos, assumem-se algumas premissas:
 1. Todos os processos são intensivamente consumidores de CPU (*CPU Bound*), ou seja, não param para realizar operações de entrada/saída (E/S). A premissa dos processos não fazerem *E/S* é requerida para focar exclusivamente no tempo de CPU.
 2. Os tempos das possíveis trocas de contexto serão desprezados.
+3. Os valores de prioridade, quando usados, são considerados em uma escala positiva, ou seja, valores numéricos maiores indicam maior prioridade.
 
 # Arquivo de Configuração
 
@@ -64,6 +65,8 @@ Os elementos desta seção são:
 3. Tempo - especifica quanto tempo de CPU o processo necessita.
 4. Prioridade - atribui uma prioridade ao processo e é usado caso o algoritmo requeira uma.
 
+
+#Exemplo de uso
 
 
 
