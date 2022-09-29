@@ -41,6 +41,32 @@ Para simplificar a análise dos algoritmos, assumem-se algumas premissas:
 1. Todos os processos são intensivamente consumidores de CPU (*CPU Bound*), ou seja, não param para realizar operações de entrada/saída (E/S). A premissa dos processos não fazerem *E/S* é requerida para focar exclusivamente no tempo de CPU.
 2. Os tempos das possíveis trocas de contexto serão desprezados.
 
+# Arquivo de Configuração
+
+Para cada conjunto hipotético de processos (p<sub>1</sub> ... p<sub>n</sub>) precisa-se de um arquivo texto de configuração, com extensão **.INI**, segundo o modelo a seguir:
+
+### Seção que define a quantidade n de Processos 
+    [Processos]
+    Quantidade = n
+
+### Seção que define cada processo. 
+    [Processoi] 
+    PID = i         
+    Inicio = 0 
+    Tempo = 5      
+    Prioridade = 2  
+
+O nome da seção deve ser composto por **"Processo" + i**, onde **i** é um número que identifica cada processo **(n <= i <= 1)**.
+
+Os elementos desta seção são:
+1. PID - determina o ID do processo para o Escalonador.
+2. Inicio - determina o tempo de **submissão** do processo.
+3. Tempo - especifica quanto tempo de CPU o processo necessita.
+4. Prioridade - atribui uma prioridade ao processo e é usado caso o algoritmo requeira uma.
+
+
+
+
 
 # Histórico
 
