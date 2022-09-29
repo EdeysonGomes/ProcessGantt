@@ -66,8 +66,9 @@ Os elementos desta seção são:
 4. Prioridade - atribui uma prioridade ao processo e é usado caso o algoritmo requeira uma.
 
 
-#Exemplo de uso
+# Exemplo de uso
 
+Os dados dos processos descritos na Tabela 1 estão no arquivo 
 
 
 
