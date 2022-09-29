@@ -71,7 +71,7 @@ Os elementos desta seção são:
 O arquivo INI correspondente aos processos descritos na Tabela 1 está em: https://github.com/EdeysonGomes/ProcessGantt/Examples/Exemplo01_(Livro_Mazieiro).txt
 O primeiro passo para o uso do Escalonador é "Selecionar o arquivo de entrada", conforme Figura 1.
 
-![Selecionando arquivo de entrada!] (https://github.com/EdeysonGomes/ProcessGantt/img/Tela_Escalonador_01.png)
+![Selecionando arquivo de entrada!] (https://github.com/EdeysonGomes/ProcessGantt/blob/9c3000afdf0651e02a26dc96c3858fb3a11149db/img/Tela_Escalonador_01.png)
 ![Logo do R](http://developer.r-project.org/Logo/Rlogo-5.png)
 ![Markdown é a linguagem de marcação mais simples do mundo!](https://markdown.net.br/assets/img/markdown.jpg "Logo do Markdown")
 
