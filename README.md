@@ -23,7 +23,7 @@ Os algoritmos de escalonamento suportados são:
 6. Prioridade Preemptivo
 
 Para a ilustrar o funcionamento de cada algoritmo via diagrama de Gantt, considera-se que:
-1. O sistema é **monoprocessado**
+1. O sistema é **monoprocessado**;
 2. Há um conjunto hipotético de processos (p<sub>1</sub> ... p<sub>n</sub>) na fila de processos prontos do sistema operacional, descritos na Tabela 1 a seguir.
 
 |Processo   | p1 | p2 | p3 | p4 | p5 |
@@ -32,7 +32,7 @@ Para a ilustrar o funcionamento de cada algoritmo via diagrama de Gantt, conside
 |Duração    | 5  | 2  | 4  | 1  | 2  |
 |Prioridade | 2  | 3  | 1  | 4  | 5  |
 
-Tabela 1: Processos na fila de prontoas.
+Tabela 1: Processos na fila de prontos.
 
 Cada processo tem uma registro de tempo de submissão (instante em que o processo foi criado no sistema), uma duração
 (tempo de processamento que necessita para realizar sua execução) e uma prioridade (usada pelos algoritmos com prioridades).
