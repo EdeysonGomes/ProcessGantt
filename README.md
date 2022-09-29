@@ -71,7 +71,8 @@ Os elementos desta seção são:
 O arquivo INI correspondente aos processos descritos na Tabela 1 está em: https://github.com/EdeysonGomes/ProcessGantt/Examples/Exemplo01_(Livro_Mazieiro).txt
 O primeiro passo para o uso do Escalonador é "Selecionar o arquivo de entrada", conforme Figura 1.
 
-![Selecionando arquivo de entrada] ()
+![Selecionando arquivo de entrada!] (img/Tela_Escalonador_01.png)
+![Logo do R](http://developer.r-project.org/Logo/Rlogo-5.png)
 
 
 # Histórico
