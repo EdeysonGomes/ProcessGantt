@@ -2,6 +2,8 @@
 
 [![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)](https://github.com/TheAlgorithms/C/blob/master/CONTRIBUTING.md)
 
+Precisamos de contribuições para a internacionalização do software e a implementação de novos algoritmos de escalonamento.
+
 # Introdução
 
 Um **escalonador de processos** (tarefas) é responsável por decidir a ordem de execução das tarefas prontas (qual o próximo processo deve executar no processador quando este estiver livre).
