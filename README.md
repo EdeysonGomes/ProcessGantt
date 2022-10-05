@@ -10,7 +10,7 @@ Um **escalonador de processos** (tarefas) é responsável por decidir a ordem de
 
 O algoritmo utilizado no escalonador de processos impacta na eficiência de ocupação do processador e nos tempos de execução e espera de processos.
 
-Uma forma didática de compreender como os algoritmos de escalonamento se diferenciam é através da construção do correspondente **Diagrama de Gantt**.
+Uma forma didática de compreender como os algoritmos de escalonamento se diferenciam, apresentando visualmente a ocupação do processador em função do tempo, é através da construção de um **Diagrama de Gantt**. 
 
 O objetivo do **Diagramador de Escalonamento de Processos** é apresentar o *Diagrama de Gantt* correspondente à execução de um conjunto de processos e calcular seus tempos de espera (*waiting time*) e execução (*turnaround time*).
 
