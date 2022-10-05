@@ -12,11 +12,12 @@ Edeyson Andrade Gomes, Jorge Calmon Moniz de Bittencourt Neto, Luis Henrique da 
 
 Como o recurso vai ajudar o professor
 
-1. Projetar exercícios
-2. Projetar avaliações
-3. Auxiliar nas aulas exibindo os diagramas de Gantt
-4. Comparar múltiplos algoritmos e políticas de escalonamento
-5. 
+1. Projetar exercícios e avaliações
+   - Definir conjuntos de processos, validar o diagrama de Gantt e os tempos dos processos 
+3. Projetar avaliações
+4. Auxiliar nas aulas exibindo os diagramas de Gantt
+5. Comparar múltiplos algoritmos e políticas de escalonamento
+
 
 Como o recurso vai ajudar o aluno
 
