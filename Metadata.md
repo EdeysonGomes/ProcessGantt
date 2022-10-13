@@ -2,12 +2,12 @@
 
 Edeyson Andrade Gomes, Jorge Calmon Moniz de Bittencourt Neto, Luis Henrique da Hora Nascimento e Milena Kelly de Santana Lima
 
-**Conhecimentos Requeridos:**
+**Conhecimentos x Habilidades Requeridos:**
 
-1. Conceitos de Processos/Tarefas
-2. Algoritmos de Escalonamento de Processos/Tarefas
-3. Políticas de Escalonamento de Processos/Tarefas
-4. Diagrama de Gantt
+1. Compreender Processos/Tarefas - Compreensão
+2. Aplicar Algoritmos de Escalonamento de Processos/Tarefas - Aplicação
+3. Distinguir Políticas de Escalonamento de Processos/Tarefas - Compreensão
+4. Diagramar estados e transições de processos (Diagrama de Gantt) - Análise
 
 
 Como o recurso vai ajudar o professor
