@@ -4,11 +4,11 @@ Edeyson Andrade Gomes, Jorge Calmon Moniz de Bittencourt Neto, Luis Henrique da 
 
 ### **Conhecimentos x Habilidades Requeridos**
 
-1. Compreender Processos/Tarefas - **Compreensão**
-2. Aplicar Algoritmos de Escalonamento de Processos/Tarefas - **Aplicação**
-3. Distinguir Políticas de Escalonamento de Processos/Tarefas - **Compreensão**
-4. Diagramar estados e transições de processos (Diagrama de Gantt) - **Análise**
-5. Criar e validar exemplos de tabelas de escalonamento (cenários de processos concorrentes) - **Síntese**
+1. Compreender *Processos/Tarefas* - **Compreensão**
+2. Aplicar *Algoritmos de Escalonamento* de Processos/Tarefas - **Aplicação**
+3. Distinguir *Políticas de Escalonamento* de Processos/Tarefas - **Compreensão**
+4. Diagramar *estados e transições de processos* (Diagrama de Gantt) - **Análise**
+5. Criar e validar exemplos de tabelas de *escalonamento de processos* (cenários de processos concorrentes) - **Síntese**
 
 ### Atitudes
 1. Ser **inventivo** para **criar** exemplos de tabelas de escalonamento.
