@@ -19,7 +19,11 @@ Represente graficamente a sequência de execução das tarefas (processos) e cal
     (e) PRIO preemptiva
     (f) RR com Quantum = 2, sem envelhecimento
 
-Considerações: todas as tarefas são orientadas a processamento; as trocas de contexto têm duração nula; em eventuais empates (idade, prioridade, duração, etc), a tarefa **ti** com menor **i** prevalece; valores maiores de prioridade indicam maior prioridade.
+**Considerações: **
+1. Todas as tarefas são orientadas a processamento; 
+2. 2. As trocas de contexto têm duração nula; 
+3. Em eventuais empates (idade, prioridade, duração, etc), a tarefa **ti** com menor **i** prevalece; 
+4. Valores maiores de prioridade indicam maior prioridade.
 
 
 # Arquivo de configuração (.INI)
