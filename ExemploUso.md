@@ -4,9 +4,9 @@
 
 Para ilustrar o **Diagramador de Escalonamento de Processos**, selecionamos um dos exercícios do capítulo 6 do livro referenciado em [2], descrito a seguir:
 
-### Questão 5) A tabela a seguir representa um conjunto de tarefas prontas para utilizar um processador:
+**Questão 5)** A tabela a seguir representa um conjunto de tarefas prontas para utilizar um processador:
 
-|Processo   | p1 | p2 | p3 | p4 | p5 |
+|Processo   | t1 | t2 | t3 | t4 | t5 |
 |-----------|----|----|----|----|----|
 |Submissão  | 0  | 0  | 3  | 5  | 7  |
 |Duração    | 5  | 4  | 5  | 6  | 4  |
@@ -23,35 +23,7 @@ Represente graficamente a sequência de execução das tarefas (processos) e cal
 
 Considerações: todas as tarefas são orientadas a processamento; as trocas de contexto têm duração nula; em eventuais empates (idade, prioridade, duração,
 etc), a tarefa ti com menor i prevalece; valores maiores de prioridade indicam maior prioridade.
-# Algoritmos
 
-Os algoritmos de escalonamento suportados são: 
-1. FCFS/FIFO - First Come, First Served / First In, First Out
-2. SJF (Shortest Job First)
-3. SRTF (Shortest Remaining Time First)
-4. Round Robin
-5. Prioridade Cooperativo;
-6. Prioridade Preemptivo
-
-Para a ilustrar o funcionamento de cada algoritmo via diagrama de Gantt, considera-se que:
-1. O sistema é **monoprocessado**;
-2. Há um conjunto hipotético de processos (p<sub>1</sub> ... p<sub>n</sub>) na fila de processos prontos do sistema operacional, descritos na Tabela 1 a seguir.
-
-|Processo   | p1 | p2 | p3 | p4 | p5 |
-|-----------|----|----|----|----|----|
-|Submissão  | 0  | 0  | 1  | 3  | 5  |
-|Duração    | 5  | 2  | 4  | 1  | 2  |
-|Prioridade | 2  | 3  | 1  | 4  | 5  |
-
-Tabela 1: Processos na fila de prontos.
-
-Cada processo tem uma registro de tempo de submissão (instante em que o processo foi criado no sistema), uma duração
-(tempo de processamento que necessita para realizar sua execução) e uma prioridade (usada pelos algoritmos com prioridades).
-
-Para simplificar a análise dos algoritmos, assumem-se algumas premissas:
-1. Todos os processos são intensivamente consumidores de CPU (*CPU Bound*), ou seja, não param para realizar operações de entrada/saída (E/S). A premissa dos processos não fazerem *E/S* é requerida para focar exclusivamente no tempo de CPU.
-2. Os tempos das possíveis trocas de contexto serão desprezados.
-3. Os valores de prioridade, quando usados, são considerados em uma escala positiva, ou seja, valores numéricos maiores indicam maior prioridade.
 
 # Arquivo de Configuração
 
