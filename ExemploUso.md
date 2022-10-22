@@ -24,7 +24,7 @@ Represente graficamente a sequência de execução das tarefas (processos) e cal
 2. As trocas de contexto têm duração nula; 
 3. Em eventuais empates (idade, prioridade, duração, etc), a tarefa **ti** com menor **i** prevalece; 
 4. Valores maiores de prioridade indicam maior prioridade.
-5. Adicionamos os quanta 2 e 10 ao item f.
+5. Adicionamos os *quanta* 2 e 10 ao item f.
 
 
 # Arquivo de configuração (.INI)
