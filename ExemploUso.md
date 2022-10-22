@@ -17,13 +17,14 @@ Represente graficamente a sequência de execução das tarefas (processos) e cal
     (c) SJF preemptiva (SRTF)
     (d) PRIO cooperativa
     (e) PRIO preemptiva
-    (f) RR com Quantum = 2, 4 e 10, sem envelhecimento (adicionamos os *quanta* 2 e 10 à questão).
+    (f) RR com Quantum = 2, 4 e 10, sem envelhecimento
 
 **Considerações: **
 1. Todas as tarefas são orientadas a processamento; 
 2. As trocas de contexto têm duração nula; 
 3. Em eventuais empates (idade, prioridade, duração, etc), a tarefa **ti** com menor **i** prevalece; 
 4. Valores maiores de prioridade indicam maior prioridade.
+5. Adicionamos os quanta 2 e 10 ao item f.
 
 
 # Arquivo de configuração (.INI)
