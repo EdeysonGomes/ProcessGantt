@@ -21,7 +21,7 @@ Represente graficamente a sequência de execução das tarefas (processos) e cal
 
 **Considerações: **
 1. Todas as tarefas são orientadas a processamento; 
-2. 2. As trocas de contexto têm duração nula; 
+2. As trocas de contexto têm duração nula; 
 3. Em eventuais empates (idade, prioridade, duração, etc), a tarefa **ti** com menor **i** prevalece; 
 4. Valores maiores de prioridade indicam maior prioridade.
 
@@ -36,7 +36,8 @@ O primeiro passo para o uso do Escalonador é "Selecionar o arquivo de entrada",
 
 O segundo passo é escolher o algoritmo de escalonamento e, em seguida, executar o escalonador. Caso o algoritmo selecionado seja o Round Robin, deve-se informar, como atributo, o tamanho do Quantum. Como resultado, obtém-se o Diagrama de Gantt do escalonamento dos processos e seus tempos de espera e execução, além dos tempos médios.
 
-![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Tela_Escalonador_02.png "Figura 2")
+### FCFS cooperativa 
+![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5 FCFS.jpg "Figura 2")
 
 # Referências
 
