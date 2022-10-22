@@ -19,7 +19,7 @@ Represente graficamente a sequência de execução das tarefas (processos) e cal
     (e) PRIO preemptiva
     (f) RR com Quantum = 2, 4 e 10, sem envelhecimento
 
-**Considerações: **
+**Considerações:**
 1. Todas as tarefas são orientadas a processamento; 
 2. As trocas de contexto têm duração nula; 
 3. Em eventuais empates (idade, prioridade, duração, etc), a tarefa **ti** com menor **i** prevalece; 
