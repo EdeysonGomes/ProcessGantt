@@ -1,16 +1,14 @@
 # ProcessGantt - Exemplo de Uso
 
-# Introdução
-
 Para ilustrar o **Diagramador de Escalonamento de Processos**, selecionamos um dos exercícios do capítulo 6 do livro referenciado em [2], descrito a seguir:
 
 **Questão 5)** A tabela a seguir representa um conjunto de tarefas prontas para utilizar um processador:
 
-|Processo   | t1 | t2 | t3 | t4 | t5 |
+|Tarefa     | t1 | t2 | t3 | t4 | t5 |
 |-----------|----|----|----|----|----|
-|Submissão  | 0  | 0  | 3  | 5  | 7  |
-|Duração    | 5  | 4  | 5  | 6  | 4  |
-|Prioridade | 2  | 3  | 5  | 9  | 6  |
+|ingresso   | 0  | 0  | 3  | 5  | 7  |
+|duração    | 5  | 4  | 5  | 6  | 4  |
+|prioridade | 2  | 3  | 5  | 9  | 6  |
 
 Represente graficamente a sequência de execução das tarefas (processos) e calcule os tempos médios de vida (*tournaround time*) e de espera (*waiting time*), para as políticas de escalonamento a seguir:
 
@@ -21,18 +19,12 @@ Represente graficamente a sequência de execução das tarefas (processos) e cal
     (e) PRIO preemptiva
     (f) RR com Quantum = 2, sem envelhecimento
 
-Considerações: todas as tarefas são orientadas a processamento; as trocas de contexto têm duração nula; em eventuais empates (idade, prioridade, duração,
-etc), a tarefa ti com menor i prevalece; valores maiores de prioridade indicam maior prioridade.
+Considerações: todas as tarefas são orientadas a processamento; as trocas de contexto têm duração nula; em eventuais empates (idade, prioridade, duração, etc), a tarefa **ti** com menor **i** prevalece; valores maiores de prioridade indicam maior prioridade.
 
 
-### Arquivo de Configuração
+# Arquivo de configuração (.INI)
 
-Para cada conjunto de processos/tarefas (p<sub>1</sub> ... p<sub>n</sub>), precisa-se de um arquivo texto de configuração, com extensão **.INI**, como detalhado seguir:
-
-
-# Exemplo de uso
-
-O arquivo INI correspondente aos processos descritos na Tabela 1 está em [Exemplo 01](https://github.com/EdeysonGomes/ProcessGantt/blob/master/Examples/Exemplo04_(Livro_Mazieiro_Q6.5).txt)
+O arquivo INI correspondente ao processo descrito na Tabela está em [Livro Mazieiro Q6.5](https://github.com/EdeysonGomes/ProcessGantt/blob/master/Examples/Exemplo04_(Livro_Mazieiro_Q6.5).txt)
 
 
 O primeiro passo para o uso do Escalonador é "Selecionar o arquivo de entrada", conforme Figura 1.
