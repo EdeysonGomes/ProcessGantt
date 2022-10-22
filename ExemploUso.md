@@ -32,7 +32,7 @@ Para cada conjunto de processos/tarefas (p<sub>1</sub> ... p<sub>n</sub>), preci
 
 # Exemplo de uso
 
-O arquivo INI correspondente aos processos descritos na Tabela 1 está em [Exemplo 01](https://github.com/EdeysonGomes/ProcessGantt/blob/master/Examples/Exemplo01_(Livro_Mazieiro).txt)
+O arquivo INI correspondente aos processos descritos na Tabela 1 está em [Exemplo 01](https://github.com/EdeysonGomes/ProcessGantt/blob/master/Examples/Exemplo04_(Livro_Mazieiro_Q6.5).txt)
 
 
 O primeiro passo para o uso do Escalonador é "Selecionar o arquivo de entrada", conforme Figura 1.
