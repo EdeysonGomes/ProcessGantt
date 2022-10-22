@@ -39,6 +39,27 @@ O segundo passo é escolher o algoritmo de escalonamento e, em seguida, executar
 ### FCFS cooperativa 
 ![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5_FCFS.jpg "FCFS")
 
+### SJF cooperativa
+![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5_SJF.jpg "SJF")
+
+### SJF preemptiva (SRTF)
+![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5_SRTF.jpg "SRTF")
+
+### PRIO cooperativa
+![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5_PrioC.jpg "PRIO C")
+
+### PRIO preemptiva
+![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5_PrioP.jpg "PRIO P")
+
+### RR com Quantum = 2, sem envelhecimento
+![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5_RR_Q2.jpg "Round Robin Quantum = 2")
+
+### RR com Quantum = 4, sem envelhecimento
+![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5_RR_Q4.jpg "Round Robin Quantum = 4")
+
+### RR com Quantum = 10, sem envelhecimento
+![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5_RR_Q10.jpg "Round Robin Quantum = 10")
+
 # Referências
 
 1. Tanenbaum, A. S. (2015). Modern operating systems. Fourth edition ed. Boston: Pearson.
