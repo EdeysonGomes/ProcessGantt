@@ -26,11 +26,11 @@ Considerações: todas as tarefas são orientadas a processamento; as trocas de 
 
 O arquivo INI correspondente aos processos descritos na tabela está em [Livro Mazieiro Q6.5](https://github.com/EdeysonGomes/ProcessGantt/blob/master/Examples/Exemplo04_(Livro_Mazieiro_Q6.5).txt)
 
-O primeiro passo para o uso do Escalonador é "Selecionar o arquivo de entrada", conforme Figura 1.
+O primeiro passo para o uso do Escalonador é "Selecionar o arquivo de entrada", conforme Figura 1. Ressalta-se que é um arquivo texto contendo a estrutura (INI) descrita no arquivo Readme.md.
 
 ![Selecionando arquivo de entrada!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Tela_Escalonador_01.png "Figura 1")
 
-O segundo passo é escolher o algoritmo de escalonamento e, em seguida, executar o escalonador. Caso o algoritmo selecionado seja o Round Robin, deve-se informar, como atributo, o tamanho do Quantum. Como resultado, obtém-se o Diagrama de Gantt do escalonamento dos processos e seus tempos de espera e execução, além dos tempos médios, conforme apresenta a Figura 2.
+O segundo passo é escolher o algoritmo de escalonamento e, em seguida, executar o escalonador. Caso o algoritmo selecionado seja o Round Robin, deve-se informar, como atributo, o tamanho do Quantum. Como resultado, obtém-se o Diagrama de Gantt do escalonamento dos processos e seus tempos de espera e execução, além dos tempos médios.
 
 ![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Tela_Escalonador_02.png "Figura 2")
 
