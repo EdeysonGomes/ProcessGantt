@@ -37,7 +37,7 @@ O primeiro passo para o uso do Escalonador é "Selecionar o arquivo de entrada",
 O segundo passo é escolher o algoritmo de escalonamento e, em seguida, executar o escalonador. Caso o algoritmo selecionado seja o Round Robin, deve-se informar, como atributo, o tamanho do Quantum. Como resultado, obtém-se o Diagrama de Gantt do escalonamento dos processos e seus tempos de espera e execução, além dos tempos médios.
 
 ### FCFS cooperativa 
-![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5 FCFS.jpg "Figura 2")
+![Executando o escalonador!](https://github.com/EdeysonGomes/ProcessGantt/blob/master/img/Q6.5_FCFS.jpg "FCFS")
 
 # Referências
 
