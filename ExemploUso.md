@@ -17,7 +17,7 @@ Represente graficamente a sequência de execução das tarefas (processos) e cal
     (c) SJF preemptiva (SRTF)
     (d) PRIO cooperativa
     (e) PRIO preemptiva
-    (f) RR com Quantum = 2, sem envelhecimento
+    (f) RR com Quantum = 2, 4 e 10, sem envelhecimento (adicionamos os *quanta* 2 e 10 à questão).
 
 **Considerações: **
 1. Todas as tarefas são orientadas a processamento; 
