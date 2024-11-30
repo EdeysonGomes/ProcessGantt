@@ -1,4 +1,4 @@
-```markdown
+
 # ProcessGantt
 
 [![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)](https://github.com/TheAlgorithms/C/blob/master/CONTRIBUTING.md)
@@ -125,4 +125,3 @@ The current evolution of the Scheduler aims to transform it into an **Open Educa
 
 1. Tanenbaum, A. S. (2015). Modern operating systems. Fourth edition. Boston: Pearson.  
 2. Maziero, C. A. (2019). Sistemas operacionais: conceitos e mecanismos. Curitiba: DINF - UFPR, 2019.
-```
