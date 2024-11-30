@@ -16,7 +16,7 @@ By focusing on hands-on experimentation and critical analysis, the objectives ai
 3. Foster creativity, precision, and self-direction in designing and analyzing scheduling scenarios.
 
 Whether used in a classroom setting or for independent study, these learning objectives aim to empower students and educators with the tools and insights needed to excel in understanding process scheduling, a fundamental aspect of modern operating systems. Through these objectives, learners are equipped not only to master the material but also to apply it to real-world challenges with confidence and competence.
----
+
 
 ### **Knowledge and Skills Required**
 
@@ -35,7 +35,7 @@ Whether used in a classroom setting or for independent study, these learning obj
 5. **Creative Problem-Solving**:  
    - Design and validate scheduling tables for *process management scenarios* involving concurrent processes, ensuring consistency and logical accuracy. 
 
----
+
 
 ### **Attitudes**
 
@@ -60,7 +60,7 @@ Whether used in a classroom setting or for independent study, these learning obj
    - Be open to feedback and discussions that enhance both individual and group understanding of process scheduling concepts.
 
 
----
+
 
 ### **How This Resource Benefits Operating Systems Educators**
 
@@ -89,7 +89,6 @@ Whether used in a classroom setting or for independent study, these learning obj
    - Use the resource to generate process execution data, allowing for statistical analysis and deeper insights into scheduling performance and efficiency.  
 
 
----
 
 ### **How This Resource Benefits Operating Systems Students**
 

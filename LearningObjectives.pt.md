@@ -2,7 +2,6 @@
 
 Edeyson Andrade Gomes, Jorge Calmon Moniz de Bittencourt Neto, Luis Henrique da Hora Nascimento e Milena Kelly de Santana Lima.
 
----
 
 ### **Introdução**
 
@@ -18,7 +17,6 @@ Ao focar em experimentação prática e análise crítica, os objetivos buscam:
 
 Seja em sala de aula ou no estudo independente, estes objetivos de aprendizagem têm como propósito capacitar estudantes e professores com ferramentas e insights necessários para dominar o escalonamento de processos, um aspecto fundamental de sistemas operacionais modernos. Por meio desses objetivos, os alunos se tornam aptos não apenas a dominar o material, mas também a aplicá-lo em desafios reais com confiança e competência.
 
----
 
 ### **Conhecimentos e Habilidades Requeridos**
 
@@ -37,7 +35,6 @@ Seja em sala de aula ou no estudo independente, estes objetivos de aprendizagem 
 5. **Resolução Criativa de Problemas**:  
    - Criar e validar tabelas de escalonamento para *cenários de gerenciamento de processos*, garantindo consistência e precisão lógica.
 
----
 
 ### **Atitudes**
 
@@ -61,7 +58,6 @@ Seja em sala de aula ou no estudo independente, estes objetivos de aprendizagem 
    - Compartilhar insights, cenários e lições aprendidas com colegas para fomentar um ambiente de aprendizado colaborativo.  
    - Estar aberto a feedbacks e discussões que aprimorem o entendimento individual e coletivo dos conceitos de escalonamento.
 
----
 
 ### **Como Este Recurso Beneficia Educadores em Sistemas Operacionais**
 
@@ -89,7 +85,7 @@ Seja em sala de aula ou no estudo independente, estes objetivos de aprendizagem 
 6. **Geração de Insights Baseados em Dados**:  
    - Gerar dados de execução de processos usando o recurso, permitindo análise estatística e insights mais profundos sobre desempenho e eficiência do escalonamento.
 
----
+
 
 ### **Como Este Recurso Beneficia Estudantes de Sistemas Operacionais**
 
@@ -122,7 +118,7 @@ Seja em sala de aula ou no estudo independente, estes objetivos de aprendizagem 
    - Usar o recurso como um laboratório para exploração independente, fomentando curiosidade e experimentação.  
    - Testar hipóteses sobre o comportamento do escalonamento e refinar o entendimento por meio da prática.
 
----
+
 
 ### **Conclusão**
 
